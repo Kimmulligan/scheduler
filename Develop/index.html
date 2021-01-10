@@ -25,24 +25,49 @@
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-        <p class="lead">A simple calendar app for scheduling your work day</p>
-       <p id="currentDay" class="lead"></p>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
       <div class="row time-block">
-        <div class="hour col-1" id="hour-9">
-          9 a.m.
-        </div>
-        <textarea class="description col-10 present">
-        </textarea>
+        <div class="hour col-1" id="hour-9">9 a.m.</div>
+        <textarea class="description col-10 "> </textarea>
+        <button class="saveBtn col-1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block">
+        <div class="hour col-1" id="hour-10">10 a.m.</div>
+        <textarea class="description col-10 "> </textarea>
+        <button class="saveBtn col-1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block">
+        <div class="hour col-1" id="hour-11">11 a.m.</div>
+        <textarea class="description col-10 "> </textarea>
+        <button class="saveBtn col-1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block">
+        <div class="hour col-1" id="hour-14">2 p.m.</div>
+        <textarea class="description col-10 "> </textarea>
+        <button class="saveBtn col-1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block">
+        <div class="hour col-1" id="hour-15">3 p.m.</div>
+        <textarea class="description col-10 "> </textarea>
         <button class="saveBtn col-1">
           <i class="fas fa-save"></i>
         </button>
       </div>
     </div>
-    
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
